@@ -1,0 +1,15 @@
+l=[]
+c=0
+n=int(input("total number of element"))
+for j in range(0,n):
+    a=int(input(print("enter number")))
+    l.append(a)
+for i in range(0,n):
+    if l[i]==l[n-i-1]:
+        c=c+1
+        
+if c==n:
+    print("palindrome")
+else:
+    print("not palindrome")
+    
