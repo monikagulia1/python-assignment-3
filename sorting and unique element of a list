@@ -1,0 +1,11 @@
+import numpy as np
+l=[]
+n=int(input("total number of element"))
+for j in range(0,n):
+    a=int(input(print("enter number")))
+    l.append(a)
+l.sort()
+l=np.unique(l)
+l=list(l)
+type(l)
+print(l
