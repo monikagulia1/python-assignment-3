@@ -1,0 +1,11 @@
+import numpy as np
+l=[]
+n=int(input("total number of element"))
+for j in range(0,n):
+    a=int(input(print("enter number")))
+    l.append(a)
+m=np.mean(l)
+if m.isnum()==True:
+    print(f"MEAN OF {l} IS {m} ")
+else:
+    print(f"MEAN OF {l} IS NOT INTEGER {m}")
