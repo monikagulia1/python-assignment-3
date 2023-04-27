@@ -1,0 +1,2 @@
+n=int(input(print("please enter any number")))
+print(f"square of {n} is {pow(n,2)}")
