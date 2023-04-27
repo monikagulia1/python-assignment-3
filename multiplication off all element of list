@@ -1,0 +1,9 @@
+n=int(input("total number of element"))
+l=[]
+m=1
+for i in range(0,n):
+    a=input("enter element")
+    l.append(a)
+for i in range(0,n):
+    m=int(l[i])*m
+print(f"multiplication of {l} is {m}")
